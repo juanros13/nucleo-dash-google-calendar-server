@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: dash-google-calendar-server
+  profiles:
+    active: dev
+
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
